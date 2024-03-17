@@ -10,12 +10,14 @@ namespace OOP_Introduction
             Person Student = new Person
             {
                 firstName = "John",
-                lastName = "Doe"
-            };
+                lastName = "Doe",
+        };
+            Person Student1 = new Person();
 
+            Debug.WriteLine(Student.getName());
 
             // after fixing access permissions
-            Debug.WriteLine(Student.firstName);
+         //   Debug.WriteLine(Student.firstName);
 
             // using the constructor
             Person Teacher = new Person();
@@ -32,7 +34,7 @@ namespace OOP_Introduction
             Debug.WriteLine(testVar2.lastName + " " + result2.lastName);
 
             // using a child class
-            Student Student1 = new Student();
+           // Student Student1 = new Student();
 
             // interfaces
             GraduateStudent Grad = new GraduateStudent();

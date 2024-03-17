@@ -6,6 +6,7 @@ namespace OOP_Introduction
     {
         public string firstName;
         public string lastName;
+        public DateTime DateofBirth;
 
         // class variables as properties
         //public string firstName { get; set; }
@@ -20,7 +21,7 @@ namespace OOP_Introduction
         /// <returns>Person's full name</returns>
         public string getName()
         {
-            return firstName + " " + lastName;
+            return salutationMr + " " + firstName + " " + lastName;
         }
 
         /// <summary>
@@ -28,8 +29,10 @@ namespace OOP_Introduction
         /// </summary>
         public Person()
         {
-            firstName = "John";
+           /* firstName = "John";
             lastName = "Doe";
+            salutationMr = "Mr";
+           */
         }
 
         /// <summary>
